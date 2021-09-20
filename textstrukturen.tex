@@ -1,15 +1,33 @@
 %!TeX root=main.tex
 \chapter{Textstrukturen}
+
+%%% Der Titel %%%
 \section{Titel}
-\label{cha:Titel}
+\label{sec:Titel}
+
+%%%Das Abstract %%%
 \section{Abstrakt}
-\label{cha:Abstrakt}
+\label{sec:Abstrakt}
 \begin{verbatim*} 
 	\begin{abstract}
 ...
 	\end{abstract}
 \end{verbatim*} %eventuell auch ohne *
-\section{Gliederung}
-\label{cha:gliederung}
 
-\blindtext{2}
+%%% die Gliederung %%%
+\section{Gliederung}
+\label{sec:gliederung}
+
+In den KOMA-Klassen scrbook und scrreprt finden sich folgende Gliederungsebenen:
+\begin{itemize}
+	\item part
+	\item chapter
+	\item section
+	\item subsection
+	\item subsubsection
+	\item paragraph
+	\item subparagraph
+
+\end{itemize}
+
+In der KOMA-Klasse scrartcl entfällt die Ebene chapter
