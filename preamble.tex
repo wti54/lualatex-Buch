@@ -4,3 +4,16 @@
 \usepackage{geometry}
 \usepackage{babel}
 \usepackage{blindtext}
+\babelprovide[hyphenrules=ngerman-x-latest]{ngerman}
+%\babelprovide %ist optional. Man bekommt aber weniger Trennfehler, weit unter 0.1%
+
+\usepackage[autostyle]{csquotes}
+\usepackage{eurosym}
+\usepackage[colorlinks]{hyperref} %soll als letztes Paket gestartet werden
+\hypersetup{linkcolor=blue}
+%%%%%%%Titel %%%%%%%%%%%%
+\title{Textsatz mit Lua\LaTeX}
+\subtitle{Ein eigenes Anleitungsbuch}
+\author{Dr. Wolfgang Tischendorf}
+\date{\today}
+%%%%%%%%%%%%%%%%%%%%%%
